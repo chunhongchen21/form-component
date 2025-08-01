@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.tab-container {
+  display: flex;
+  flex-direction: row;
+}
+.tab-header {
+  padding: 8px;
+  border: 1px solid black;
+  max-width: fit-content;
+}
+
+.tab-body {
+  height: 300px;
+  border: 1px solid black;
+  justify-content: flex-start;
+  display: flex;
+}
+.input-error {
+  font-size: small;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
